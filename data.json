@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "asd",
+      "author": "asd",
+      "id": 2
+    },
+    {
+      "title": "test an",
+      "author": "ang",
+      "id": 3
+    },
+    {
+      "title": "asd",
+      "author": "nuevo elemento",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "jmaldonado",
+      "password": "123456",
+      "admin": true
+    },
+    {
+      "username": "bruno",
+      "password": "123",
+      "admin": false,
+      "id": 2
+    },
+    {
+      "email": "test@test.cl",
+      "username": "test",
+      "password": "test",
+      "admin": false,
+      "id": 3
+    },
+    {
+      "email": "test2@test.cl",
+      "username": "test2",
+      "password": "test2",
+      "admin": false,
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
